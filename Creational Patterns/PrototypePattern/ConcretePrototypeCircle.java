@@ -12,5 +12,13 @@ public class ConcretePrototypeCircle implements Prototype{
     @Override
     public Prototype clone() {
         return new ConcretePrototypeCircle(this);
-    }   
+    }  
+    // Additional methods specific to Circle
+    public void setRadius(int radius) {
+            this.radius = radius;
+        }
+    
+        public int getRadius() {
+            return radius;
+        } 
 }
