@@ -16,4 +16,10 @@ class LineAdapter extends Line implements Shape{
     }
 }
 // Client code that uses the 'Target' interface.
-public
+public class AdapterDemo{
+    public static void main(String[] args){
+        Line line = new Line();
+        Shape lineAdapter = new LineAdapter(line);
+        
+    }
+}
