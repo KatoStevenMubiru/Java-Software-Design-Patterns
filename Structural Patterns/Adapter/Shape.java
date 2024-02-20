@@ -20,6 +20,7 @@ public class AdapterDemo{
     public static void main(String[] args){
         Line line = new Line();
         Shape lineAdapter = new LineAdapter(line);
+        lineAdapter.draw(10, 30, 20, 60);
         
     }
 }
