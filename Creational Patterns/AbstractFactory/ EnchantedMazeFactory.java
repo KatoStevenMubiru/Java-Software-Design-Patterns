@@ -1,4 +1,4 @@
-interface MazeFactory {
+#interface MazeFactory {
     Maze makeMaze();
     Wall makeWall();
     Room makeRoom(int n);
